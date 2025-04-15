@@ -4,3 +4,29 @@
   padding: 2rem;
   text-align: center;
 }
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 12px 20px;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+}
+th {
+  background-color: #007bff;
+  color: #e0e0e0;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f21f;
+}
+tr:hover {
+  background-color: rgba(0, 123, 255, 0.3);
+}
+tr.open {
+  background-color: #0055ff58;
+}
